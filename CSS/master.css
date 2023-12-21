@@ -17,7 +17,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 body {
     font-family: 'Work Sans', sans-serif;
@@ -163,13 +163,8 @@ body {
     right: 0;
     background-color: #333;
     min-width: 200px;
-    display: none;
     z-index: 1;
 }
-
-/* .header .container .links:hover ul {
-    display: block;
-} */
 
 .header .container .links ul::after {
     content: '';
